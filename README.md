@@ -39,6 +39,13 @@ This  command will list containers in your system.
 
 ` $ docker image ls `
 This command will list the images.
+
+``` $ docker-compose down```
+This command will stop containers and will removes containers, networks, volumes, and images created by up command.
  
+ ``` $ docker-compose up -d``` 
+ or
+ ``` $ docker-compose build``` 
  
- 
+ These commands is used to pull images from docker hub.
+
