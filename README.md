@@ -2,9 +2,12 @@
 This project aims at setting up the Kafka and Zookeeper Setup by setting up the entire infrastructure using docker-compose file.
 
 
-# Introduction
+# Project Environment:
 This project is developed using Docker using Red Hat Enterprise Linux 8.
-Kafka is an opensource project and it is used for real-time streams of data. In a typical messaging system, data integration is difficult because there are many source systems and destination system therefore it is difficult to develop a data pipeline to move data. Kafka has established itself as a very popular tool for building a real data pipeline. Kafa is a highly scalable and fault-tolerant messaging system. Kafka uses zookeepers because zookeepers track the status of Kafka cluster nodes and it also keeps track of Kafka topics, partitions, etc.
+
+# Introduction:
+Kafka is an opensource project and it is used for real-time streams of data. In a typical messaging system, data integration is difficult because there are many source systems and destination system therefore it is difficult to develop a data pipeline to move data. Kafka has established itself as a very popular tool for building a real data pipeline. Kafa is a highly scalable and fault-tolerant messaging system. Kafka is designed for distributed high throughput systems. 
+Kafka uses zookeepers because zookeepers track the status of Kafka cluster nodes and it also keeps track of Kafka topics, partitions, etc.
 
 
 # Pre-configurations needed:
