@@ -21,6 +21,10 @@ Created a docker-compose file in which I have used three zookeepers and single K
  This command is used to pull images from docker hub.
 
 
+# For Testing: 
+For testing i have used telnet utillity to check connectivity to remote ports.
+For using telnet you may be require to download telnet  utillity.
+
  # For Stoping containers:
 ``` $ docker-compose down```
 This command will stop containers and will removes containers, networks, volumes, and images created by up command.
